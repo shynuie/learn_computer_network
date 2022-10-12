@@ -13,11 +13,11 @@ server_socket.listen(1)
 print('Server is ready to receive')
 
 while True:
-    connection_socket, addr = server_socket.accept()
+    connection_socket, addr = server_socket.accept()  # codes will hold on this line till there's a connection built by client
     msg = connection_socket.recv(BUF_MEMORY).decode()
     if msg == "shutdown":
         break
     reply_msg = msg.upper()
     connection_socket.send(reply_msg.encode())
-    
+
 connection_socket.close()
