@@ -68,3 +68,8 @@ A: `ICANN`: Internet Corporation for Assigned Names and Numbers
 * http://www.icann.org
 * allocates IP addresses, through `5 regional registries (RRs)`(who may then allocate to local registries)
 * manages DNS root zone, including delegation of individual TLD (.com, .edu, ...) management
+
+### `Are there enough 32-bit IP address?`
+* ICANN allocated last chunk of IPv4 addresses to RRs in 2011
+* NAT(next) helps IPv4 address space exhaustion
+* IPv6 has 128-bit address space
