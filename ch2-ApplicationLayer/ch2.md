@@ -807,7 +807,7 @@ common extension:
 <img src="imgs/build_socket_udp.png">
 
 1. server build a socket
-    * specify the port #
+    * specify the port # (for server, usually will use 0~1023)
     * `AF_INET`: Using IPv4
     * `SOCK_DGRAM`: Datagram Socket (UDP)
 
