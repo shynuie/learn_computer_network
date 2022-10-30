@@ -157,3 +157,9 @@ Example: two competing TCP sessions:
 * there is no "internet policy" policing use of congestion control
 * plus: TCP friendly
 
+`Fairness , parallel TCP connections`
+* application can open multiple parallel connections between two hosts
+* web browsers do this, e.g., link of rate R with 9 existing connections:
+    * new app asks for 1 TCP, gets rate R/10
+    * new app asks for 11 TCPs, gets R/2
+
