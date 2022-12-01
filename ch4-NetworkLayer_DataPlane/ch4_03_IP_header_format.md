@@ -17,4 +17,4 @@
 * time to live: usually upper than 64
 * upper layer protocol: a value indicating protocol of transport layer
     * TCP: 6
-    * UDP: 7
+    * UDP: 17
